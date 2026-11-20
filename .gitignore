@@ -1,0 +1,16 @@
+# IDE
+.idea/
+*.iml
+*.log
+
+# Rust
+target/
+.cargo/config.toml
+
+# Node
+node_modules/
+dist/
+.cache/
+pnpm-lock.yaml
+package-lock.json
+*.node

@@ -1,0 +1,5 @@
+lib/
+*.node
+odin_vm_napi.dll
+libodin_vm_napi.so
+libodin_vm_napi.dylib

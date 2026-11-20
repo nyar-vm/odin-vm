@@ -1,0 +1,9 @@
+# Copy to `.cargo/config.toml` (gitignored). Do not commit real paths.
+# Replace `<your-path>` with the directory that contains a `rust-boost` checkout.
+# CI resolves `interpreter-vm-ovm` / `interpreter-gc` / `data-binary-odin` from the
+# git `rev` pins in the root `Cargo.toml`.
+
+[patch."https://github.com/oovm/rust-boost"]
+interpreter-vm-ovm = { path = "<your-path>/rust-boost/projects/interpreter/interpreter.vm.ovm" }
+interpreter-gc = { path = "<your-path>/rust-boost/projects/interpreter/interpreter.gc" }
+data-binary-odin = { path = "<your-path>/rust-boost/projects/data/data.binary.odin" }
